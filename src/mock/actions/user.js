@@ -1,28 +1,31 @@
+const db = require('../../common/db');
+
 module.exports = ({ user }) => ({
-  add: async payload => {
-    const { name, login, password } = payload;
+  create: async payload => {
+    const { id, name, login, password } = payload;
     const c = new user.Instance({
+      id,
       name,
       login,
       password
     });
-
-    return c.save();
+    db.save('users', c);
+    return c;
   },
 
-  delete: async _id => {
-    return user.Instance.findOneAndDelete({ _id });
+  delete: async id => {
+    return db.findOneAndDelete('users', id);
   },
 
-  update: async (_id, payload) => {
-    return user.Instance.findOneAndUpdate({ _id }, payload);
+  update: async (id, payload) => {
+    return db.updateOne('users', id, payload);
   },
 
-  get: async _id => {
-    return user.Instance.findById(_id);
+  getById: async id => {
+    return db.findById('users', id);
   },
 
   getAll: async () => {
-    return user.Instance.find();
+    return db.getAll('users');
   }
 });

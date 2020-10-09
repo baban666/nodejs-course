@@ -9,15 +9,20 @@ module.exports = ({ router, actions, models }) => {
   });
 
   routes.get('/:id', async (req, res) => {
-    const target = await user.get(req.params.id);
+    const target = await user.getById(req.params.id);
 
     res.json(target);
   });
 
   routes.post('/', async (req, res) => {
-    const target = await user.add(req.body);
+    const target = await user.create(req.body);
+    const newUser = {
+      id: target.id,
+      name: target.name,
+      login: target.login
+    };
 
-    res.json(target);
+    res.json(newUser);
   });
 
   routes.delete('/:id', async (req, res) => {
@@ -27,9 +32,15 @@ module.exports = ({ router, actions, models }) => {
   });
 
   routes.put('/:id', async (req, res) => {
+    console.log('req.params.id, req.body', req.params.id, req.body);
     const target = await user.update(req.params.id, req.body);
-
-    res.json(target);
+    console.log('put target', target);
+    const newUser = {
+      id: target.id,
+      name: target.name,
+      login: target.login
+    };
+    res.json(newUser);
   });
 
   return routes;
