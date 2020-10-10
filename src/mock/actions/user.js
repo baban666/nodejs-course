@@ -14,6 +14,16 @@ module.exports = ({ user }) => ({
   },
 
   delete: async id => {
+    const tasks = db.getAll('tasks');
+    db.tasks = tasks.map(item => {
+      if (item.userId === id) {
+        return {
+          ...item,
+          userId: null
+        };
+      }
+      return item;
+    });
     return db.findOneAndDelete('users', id);
   },
 

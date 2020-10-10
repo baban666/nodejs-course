@@ -39,7 +39,6 @@ const db = {
     // return db[resource].find(item => item.id === payload.id);
   },
   findById: (resource, id) => {
-    console.log(db[resource].find(item => item.id === id));
     return db[resource].find(item => item.id === id);
   },
   findOneAndDelete: (resource, id) => {
@@ -51,13 +50,11 @@ const db = {
   updateOne: (resource, id, newData) => {
     const updateData = db[resource].map(item => {
       if (item.id === id) {
-        const newUser = {
-          id: item.id,
-          name: newData.name,
-          login: newData.login,
-          password: newData.password
+        const newItem = {
+          ...item,
+          ...newData
         };
-        return newUser;
+        return newItem;
       }
       return item;
     });

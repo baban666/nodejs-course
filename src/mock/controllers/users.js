@@ -4,13 +4,11 @@ module.exports = ({ router, actions, models }) => {
 
   routes.get('/', async (req, res) => {
     const users = await user.getAll();
-
     res.json(users);
   });
 
   routes.get('/:id', async (req, res) => {
     const target = await user.getById(req.params.id);
-
     res.json(target);
   });
 
@@ -21,20 +19,16 @@ module.exports = ({ router, actions, models }) => {
       name: target.name,
       login: target.login
     };
-
     res.json(newUser);
   });
 
   routes.delete('/:id', async (req, res) => {
     const target = await user.delete(req.params.id);
-
     res.json(target);
   });
 
   routes.put('/:id', async (req, res) => {
-    console.log('req.params.id, req.body', req.params.id, req.body);
     const target = await user.update(req.params.id, req.body);
-    console.log('put target', target);
     const newUser = {
       id: target.id,
       name: target.name,

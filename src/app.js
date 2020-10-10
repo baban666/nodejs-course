@@ -18,15 +18,12 @@ try {
   let mock = '';
 
   if (TASK_NUMBER === '2') {
-    console.info('2');
     mock = '/mock';
   }
 
   const controllers = inject(`${__dirname}${mock}/controllers`);
   const actions = inject(`${__dirname}${mock}/actions`);
   const models = inject(`${__dirname}${mock}/models`);
-
-  console.info(controllers);
 
   mongoose.connect(MONGO_CONNECTION_STRING, {
     useUnifiedTopology: true,
@@ -42,7 +39,10 @@ try {
 
   // eslint-disable-next-line guard-for-in
   for (const name in controllers) {
-    app.use(`/${name}`, controllers[name]({ router, actions, models }));
+    app.use(
+      `/${name === 'tasks' ? 'boards' : name}`,
+      controllers[name]({ router, actions, models })
+    );
   }
 } catch (e) {
   console.error(e);
