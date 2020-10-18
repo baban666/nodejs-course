@@ -11,5 +11,7 @@ module.exports = {
   MONGO_CONNECTION_STRING: process.env.MONGO_CONNECTION_STRING,
   JWT_SECRET_KEY: process.env.JWT_SECRET_KEY,
   AUTH_MODE: process.env.AUTH_MODE === 'true',
-  TASK_NUMBER: process.env.TASK_NUMBER
+  TASK_NUMBER: process.env.TASK_NUMBER,
+  COMMON_LOG_LEVEL: process.env.COMMON_LOG_LEVEL,
+  ERROR_LOG_LEVEL: process.env.ERROR_LOG_LEVEL
 };
