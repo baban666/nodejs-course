@@ -1,6 +1,6 @@
 const Column = require('../models/columnModel');
 
-module.exports = ({ boardModel }) => ({
+module.exports = ({ boardModel, taskModel }) => ({
   add: async payload => {
     const { columns, title = 'title' } = payload;
     const newColumns = columns
@@ -20,6 +20,7 @@ module.exports = ({ boardModel }) => ({
 
   delete: async id => {
     const isDeleted = (await boardModel.Instance.deleteOne({ _id: id })).ok;
+    await taskModel.Instance.deleteMany({ boardId: id });
     return isDeleted;
   },
 

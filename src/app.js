@@ -6,7 +6,6 @@ const YAML = require('yamljs');
 const inject = require('require-all');
 const mongoose = require('mongoose');
 const { incomingLogger, errorLogger } = require('./middlewares/logger');
-// const userRouter = require('./resources/users/user.router');
 const router = express.Router;
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));

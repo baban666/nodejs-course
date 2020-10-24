@@ -19,8 +19,8 @@ module.exports = ({ taskModel }) => ({
   },
 
   get: async (boardId, id) => {
-    const tasks = await taskModel.Instance.find({ boardId }).exec();
-    return taskModel.Instance.toResponse(tasks.find(item => item.id === id));
+    const tasks = await taskModel.Instance.findById(id);
+    return tasks !== null ? taskModel.Instance.toResponse(tasks) : undefined;
   },
 
   getAll: async id => {

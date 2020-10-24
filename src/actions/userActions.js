@@ -1,11 +1,12 @@
-module.exports = ({ userModel }) => ({
+module.exports = ({ userModel, taskModel }) => ({
   add: async payload => {
     const user = await userModel.Instance.create(payload);
     return userModel.Instance.toResponse(user);
   },
-  //
+
   delete: async id => {
     const isDeleted = (await userModel.Instance.deleteOne({ _id: id })).ok;
+    await taskModel.Instance.updateMany({ userId: id }, { userId: null });
     return isDeleted;
   },
 

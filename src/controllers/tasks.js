@@ -11,6 +11,9 @@ module.exports = ({ router, actions: { taskActions }, models }) => {
   routes.get('/:boardId/tasks/:id', async (req, res) => {
     const { boardId, id } = req.params;
     const target = await task.get(boardId, id);
+    if (!target) {
+      res.status(404).send('Not found');
+    }
     res.json(target);
   });
 
@@ -21,15 +24,12 @@ module.exports = ({ router, actions: { taskActions }, models }) => {
   });
 
   routes.delete('/:boardId/tasks/:id', async (req, res) => {
-    try {
-      const result = await task.delete(req.params.id);
-      if (!result) {
-        res.status(404).send('Not found');
-      }
-      res.status(204).send('The board has been deleted');
-    } catch (err) {
+    const { id } = req.params;
+    const result = await task.delete(id);
+    if (!result) {
       res.status(404).send('Not found');
     }
+    res.status(200).send('OK');
   });
 
   routes.put('/:boardId/tasks/:id', async (req, res) => {
