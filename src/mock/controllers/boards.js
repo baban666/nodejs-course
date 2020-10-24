@@ -1,6 +1,6 @@
-module.exports = ({ router, actions, models }) => {
+module.exports = ({ router, actions: { boardActions }, models }) => {
   const routes = router();
-  const board = actions.board(models);
+  const board = boardActions(models);
 
   routes.get('/', async (req, res) => {
     const boards = await board.getAll();

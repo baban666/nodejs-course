@@ -1,0 +1,43 @@
+{"level":"error","message":"Thu Oct 22 2020 03:42:20 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: routes is not defined"}
+{"level":"error","message":"Thu Oct 22 2020 04:04:48 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot read property 'find' of undefined"}
+{"level":"error","message":"Thu Oct 22 2020 04:09:43 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: actions.taskAction is not a function"}
+{"level":"error","message":"Thu Oct 22 2020 04:09:49 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: actions.taskAction is not a function"}
+{"level":"error","message":"Thu Oct 22 2020 04:10:08 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: actions.taskAction is not a function"}
+{"level":"error","message":"Thu Oct 22 2020 04:12:06 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: actions.taskAction is not a function"}
+{"level":"error","message":"Thu Oct 22 2020 04:12:17 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: actions.taskAction is not a function"}
+{"level":"error","message":"Thu Oct 22 2020 04:16:19 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: actions.taskAction is not a function"}
+{"level":"error","message":"Thu Oct 22 2020 04:17:08 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: actions.taskAction is not a function"}
+{"level":"error","message":"Thu Oct 22 2020 04:19:14 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: actions.taskAction is not a function"}
+{"level":"error","message":"Thu Oct 22 2020 04:20:16 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: actions.taskAction is not a function"}
+{"level":"error","message":"Thu Oct 22 2020 04:20:51 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: actions.taskAction is not a function"}
+{"level":"error","message":"Thu Oct 22 2020 04:22:54 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: Router.use() requires a middleware function but got a undefined"}
+{"level":"error","message":"Thu Oct 22 2020 04:36:17 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cast to ObjectId failed for value \"{ id: '817f93c7-1f4f-4f3a-925c-34f258cacb32' }\" at path \"_id\" for model \"User\""}
+{"level":"error","message":"Thu Oct 22 2020 04:36:52 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cast to ObjectId failed for value \"{ id: '817f93c7-1f4f-4f3a-925c-34f258cacb32' }\" at path \"_id\" for model \"User\""}
+{"level":"error","message":"Thu Oct 22 2020 04:53:03 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: User validation failed: _id: Cast to ObjectId failed for value \"833f89e7-6da1-4f4c-89bb-4e0bf609df5f\" at path \"_id\""}
+{"level":"error","message":"Thu Oct 22 2020 04:57:35 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Parameter \"filter\" to find() must be an object, got cb943591-af5f-4dff-a662-7d59b544249e"}
+{"level":"error","message":"Thu Oct 22 2020 04:57:42 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Parameter \"filter\" to find() must be an object, got cb943591-af5f-4dff-a662-7d59b544249e"}
+{"level":"error","message":"Thu Oct 22 2020 05:25:54 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: bookSchema is not defined"}
+{"level":"error","message":"Fri Oct 23 2020 17:33:08 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: listen EADDRINUSE: address already in use :::4000"}
+{"level":"error","message":"Fri Oct 23 2020 17:34:07 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: listen EADDRINUSE: address already in use :::4000"}
+{"level":"error","message":"Fri Oct 23 2020 17:40:01 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: user.getById is not a function"}
+{"level":"error","message":"Sat Oct 24 2020 00:23:55 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Performing an update on the path '_id' would modify the immutable field '_id'"}
+{"level":"error","message":"Sat Oct 24 2020 01:12:56 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: Unexpected token ')'"}
+{"level":"error","message":"Sat Oct 24 2020 04:32:09 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: undefined is not a function"}
+{"level":"error","message":"Sat Oct 24 2020 04:32:14 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: undefined is not a function"}
+{"level":"error","message":"Sat Oct 24 2020 04:32:57 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: undefined is not a function"}
+{"level":"error","message":"Sat Oct 24 2020 04:33:02 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: undefined is not a function"}
+{"level":"error","message":"Sat Oct 24 2020 04:34:33 GMT+0300 (Восточная Европа, летнее время) | Uncaught Exception: taskSchema is not defined"}
+{"level":"error","message":"Sat Oct 24 2020 04:44:25 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 04:44:30 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 04:44:37 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 04:44:37 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 04:44:37 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 04:44:37 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 04:44:37 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 04:44:44 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 05:09:13 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 05:24:00 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 05:26:24 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 05:27:47 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 05:32:07 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
+{"level":"error","message":"Sat Oct 24 2020 05:37:18 GMT+0300 (Восточная Европа, летнее время) | Unhandled Rejection: Cannot destructure property 'id' of 'undefined' as it is undefined."}
