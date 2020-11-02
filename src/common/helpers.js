@@ -1,5 +1,6 @@
 const { getReasonPhrase, StatusCodes } = require('http-status-codes');
-
+const bcrypt = require('bcrypt');
+const { SALT_ROUNDS } = require('./config');
 const helpers = {
   NewError: class NewError extends Error {
     constructor(stat, errorMessage) {
@@ -56,6 +57,14 @@ const helpers = {
   }`;
     const logToFile = `{ url: ${url}, method: ${method}, body: ${request}, query_params: ${params} }`;
     return { logToConsole, logToFile };
+  },
+  cryptData: async data => {
+    const hash = await bcrypt.hash(data, +SALT_ROUNDS);
+    return hash;
+  },
+  checkPassword: async (pass, hash) => {
+    const result = await bcrypt.compare(pass, hash);
+    return result;
   }
 };
 module.exports = { helpers };

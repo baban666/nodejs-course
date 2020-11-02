@@ -1,6 +1,12 @@
+const { helpers } = require('../common/helpers');
+
 module.exports = ({ userModel, taskModel }) => ({
   add: async payload => {
-    const user = await userModel.Instance.create(payload);
+    const userData = {
+      ...payload,
+      password: await helpers.cryptData(payload.password)
+    };
+    const user = await userModel.Instance.create(userData);
     return userModel.Instance.toResponse(user);
   },
 

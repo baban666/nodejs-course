@@ -13,5 +13,7 @@ module.exports = {
   AUTH_MODE: process.env.AUTH_MODE === 'true',
   TASK_NUMBER: process.env.TASK_NUMBER,
   COMMON_LOG_LEVEL: process.env.COMMON_LOG_LEVEL,
-  ERROR_LOG_LEVEL: process.env.ERROR_LOG_LEVEL
+  ERROR_LOG_LEVEL: process.env.ERROR_LOG_LEVEL,
+  PATH_WHITELIST: process.env.PATH_WHITELIST,
+  SALT_ROUNDS: process.env.SALT_ROUNDS
 };

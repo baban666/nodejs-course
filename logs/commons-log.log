@@ -3279,3 +3279,439 @@
 {"level":"info","message":"{ url: /boards/e6a42c73-8e64-4d29-bf12-5c44b20645c1/tasks/ff665ed2-73c5-427f-9c05-6963d200495b, method: DELETE, body: null, query_params: null }"}
 {"level":"info","message":"{ url: /boards/e6a42c73-8e64-4d29-bf12-5c44b20645c1/tasks/ff665ed2-73c5-427f-9c05-6963d200495b, method: GET, body: null, query_params: null }"}
 {"level":"info","message":"{ url: /boards/e6a42c73-8e64-4d29-bf12-5c44b20645c1, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: {title: task test ytt, columns: []}, query_params: null }"}
+{"level":"info","message":"{ url: /users/c35d2a16-4a6d-4c52-9805-8326893e7592, method: POST, body: {name: 'TEST5, login: 'test_us5, password: 'T35t_P@5536'}, query_params: null }"}
+{"level":"info","message":"{ url: /users/, method: POST, body: {name: 'TEST5, login: 'test_us5, password: 'T35t_P@5536'}, query_params: null }"}
+{"level":"info","message":"{ url: /users/, method: POST, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"error","message":"Mon Nov 02 2020 12:18:25 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: lognActions is not a function"}
+{"level":"error","message":"Mon Nov 02 2020 12:47:04 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: Cannot destructure property 'userModel' of 'undefined' as it is undefined."}
+{"level":"error","message":"Mon Nov 02 2020 13:02:13 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: Cannot destructure property 'userModel' of 'undefined' as it is undefined."}
+{"level":"error","message":"Mon Nov 02 2020 13:05:02 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: Cannot destructure property 'userModel' of 'undefined' as it is undefined."}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin1, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin1}, query_params: null }"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"error","message":"Mon Nov 02 2020 13:20:55 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: Cannot find module './config'\nRequire stack:\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\actions\\loginActions.js\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\node_modules\\require-all\\index.js\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\app.js\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\server.js"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"error","message":"Mon Nov 02 2020 14:36:48 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: Router.use() requires a middleware function but got a undefined"}
+{"level":"error","message":"Mon Nov 02 2020 14:37:35 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: Cannot find module './middlewares/chechRouteAccess'\nRequire stack:\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\app.js\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\server.js"}
+{"level":"error","message":"Mon Nov 02 2020 14:37:50 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: Cannot find module './middlewares/chechRouteAccess'\nRequire stack:\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\app.js\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\server.js"}
+{"level":"error","message":"Mon Nov 02 2020 14:39:19 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: Cannot find module './middlewares/chechRouteAccess'\nRequire stack:\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\app.js\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\server.js"}
+{"level":"error","message":"Mon Nov 02 2020 14:40:41 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: Cannot find module './middlewares/chechRouteAccess'\nRequire stack:\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\app.js\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\server.js"}
+{"level":"error","message":"Mon Nov 02 2020 14:41:16 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: Cannot find module './middlewares/chechRouteAccess'\nRequire stack:\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\app.js\n- C:\\OSPanel\\domains\\node-course\\nodejs-course\\src\\server.js"}
+{"level":"error","message":"Mon Nov 02 2020 14:42:05 GMT+0200 (Восточная Европа, стандартное время) | Uncaught Exception: app.use() requires a middleware function"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users/, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users/, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users/, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users/, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users/, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /docs/, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /docs/, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/undefined, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: PUT, body: {title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks/undefined, method: PUT, body: {title: Autotest updated task}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks/undefined, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: PUT, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: PUT, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/123, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: PUT, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/undefined, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: PUT, body: {title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks/undefined, method: PUT, body: {title: Autotest updated task}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks/undefined, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: PUT, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: PUT, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/123, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: PUT, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login/, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: {name: admin, login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/undefined, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: PUT, body: {title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks/undefined, method: PUT, body: {title: Autotest updated task}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks/undefined, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: PUT, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: PUT, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/123, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: PUT, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/undefined, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks/undefined, method: PUT, body: {title: Autotest updated task}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks/undefined, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: PUT, body: {title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: PUT, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: PUT, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/123, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: PUT, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/undefined, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks/undefined, method: PUT, body: {title: Autotest updated task}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined/tasks/undefined, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: PUT, body: {title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/undefined, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: PUT, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/123, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: PUT, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: PUT, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/dad2e8b3-9a9a-407e-8b46-6e2a967cdf2a, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/dad2e8b3-9a9a-407e-8b46-6e2a967cdf2a, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/0cee5d06-2be9-429e-9170-96a9bf181572, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/4561bbcd-25ca-4bff-a831-d51ab5cbcf12, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd, id: 4561bbcd-25ca-4bff-a831-d51ab5cbcf12}, query_params: null }"}
+{"level":"info","message":"{ url: /users/4561bbcd-25ca-4bff-a831-d51ab5cbcf12, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/4561bbcd-25ca-4bff-a831-d51ab5cbcf12, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/15678c9a-c1b9-4e86-9a35-208a3e644588, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f3cdffa4-f3c6-4fe8-abde-531663bcacb0/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, userId: 7a9a7b53-0f80-4442-9f59-23a51415b386, boardId: f3cdffa4-f3c6-4fe8-abde-531663bcacb0}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f3cdffa4-f3c6-4fe8-abde-531663bcacb0/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, userId: 7a9a7b53-0f80-4442-9f59-23a51415b386, boardId: f3cdffa4-f3c6-4fe8-abde-531663bcacb0}, query_params: null }"}
+{"level":"info","message":"{ url: /users/7a9a7b53-0f80-4442-9f59-23a51415b386, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f3cdffa4-f3c6-4fe8-abde-531663bcacb0/tasks/c90e53c8-eae5-468e-b8b8-34eff25f3a31, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f3cdffa4-f3c6-4fe8-abde-531663bcacb0/tasks/9b899451-e284-4f03-8067-b83e3ef0282d, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f3cdffa4-f3c6-4fe8-abde-531663bcacb0/tasks/c90e53c8-eae5-468e-b8b8-34eff25f3a31, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f3cdffa4-f3c6-4fe8-abde-531663bcacb0/tasks/9b899451-e284-4f03-8067-b83e3ef0282d, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f3cdffa4-f3c6-4fe8-abde-531663bcacb0, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b60702ff-ad42-4883-8bb9-94a26a847859, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/dd5ad8ec-4122-455f-8955-3f17b1cac9f1, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e4a1f237-ed22-42d1-80bd-2fdf12a8db68, method: PUT, body: {id: e4a1f237-ed22-42d1-80bd-2fdf12a8db68, columns: [{\"id\":\"f2610967-96bd-475f-b708-07092d09d2c9\",\"title\":\"Backlog\",\"order\":1},{\"id\":\"b95cc2a4-06fc-44ac-8924-675105f4ef7b\",\"title\":\"Sprint\",\"order\":2}], title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e4a1f237-ed22-42d1-80bd-2fdf12a8db68, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e4a1f237-ed22-42d1-80bd-2fdf12a8db68, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/14b42830-51de-4bf4-be0c-12251b68ef49, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/14b42830-51de-4bf4-be0c-12251b68ef49, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, boardId: 68c87555-12c5-4c21-8225-5efe90551f7f, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks, method: POST, body: {title: Task #3, order: 3, description: Lorem ipsum, boardId: 68c87555-12c5-4c21-8225-5efe90551f7f, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, boardId: 68c87555-12c5-4c21-8225-5efe90551f7f, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks, method: POST, body: {title: Task #4, order: 4, description: Lorem ipsum, boardId: 68c87555-12c5-4c21-8225-5efe90551f7f, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks, method: POST, body: {title: Task #5, order: 5, description: Lorem ipsum, boardId: 68c87555-12c5-4c21-8225-5efe90551f7f, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks/9fb276cc-8969-45c7-b1dc-5a7e47a6a285, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks/15f2b72f-0b79-4ecd-87c5-0b2cfffa034f, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks/25ad4339-b4ee-43e4-9c58-4292989ca1e5, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks/33901590-f5e2-4a6f-bdbf-a55c9b768cdd, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks/b6ebb8c8-1951-418d-8b8c-ad859e97e745, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks/9fb276cc-8969-45c7-b1dc-5a7e47a6a285, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks/25ad4339-b4ee-43e4-9c58-4292989ca1e5, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks/15f2b72f-0b79-4ecd-87c5-0b2cfffa034f, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks/33901590-f5e2-4a6f-bdbf-a55c9b768cdd, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68c87555-12c5-4c21-8225-5efe90551f7f/tasks/b6ebb8c8-1951-418d-8b8c-ad859e97e745, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b60702ff-ad42-4883-8bb9-94a26a847859, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks/4a0ac94d-e175-41f1-816e-a47260c58936, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks/771ad90f-b7fd-43f8-a661-11617bc75cc2, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks/23537e90-e44b-41b0-afc6-ab2904d24c81, method: PUT, body: {id: 23537e90-e44b-41b0-afc6-ab2904d24c81, title: Autotest updated task, order: 0, description: Lorem ipsum, userId: null, boardId: c78075f4-90f2-4e03-9547-aab03a2b3cb7, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks/23537e90-e44b-41b0-afc6-ab2904d24c81, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks/4a0ac94d-e175-41f1-816e-a47260c58936, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks/4a0ac94d-e175-41f1-816e-a47260c58936, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7/tasks/4a0ac94d-e175-41f1-816e-a47260c58936, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c78075f4-90f2-4e03-9547-aab03a2b3cb7, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: PUT, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: PUT, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/123, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: PUT, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/a3e6bda5-57be-4a76-907f-1140a8983300, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/a3e6bda5-57be-4a76-907f-1140a8983300, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/f62c434b-5d47-4d6e-9513-21da71fbf8e9, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/eece26e7-b791-47f5-9425-e0feec5e9138, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd, id: eece26e7-b791-47f5-9425-e0feec5e9138}, query_params: null }"}
+{"level":"info","message":"{ url: /users/eece26e7-b791-47f5-9425-e0feec5e9138, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/eece26e7-b791-47f5-9425-e0feec5e9138, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/a79915ce-87a8-44c8-aa58-db07148a3ccc, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/97b9a411-38d1-47ab-9572-dc2b99673e03/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, userId: f0470632-8c4c-4c52-a4ee-48b63d35fc63, boardId: 97b9a411-38d1-47ab-9572-dc2b99673e03}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/97b9a411-38d1-47ab-9572-dc2b99673e03/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, userId: f0470632-8c4c-4c52-a4ee-48b63d35fc63, boardId: 97b9a411-38d1-47ab-9572-dc2b99673e03}, query_params: null }"}
+{"level":"info","message":"{ url: /users/f0470632-8c4c-4c52-a4ee-48b63d35fc63, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/97b9a411-38d1-47ab-9572-dc2b99673e03/tasks/d1dd283e-aa40-43ed-bec6-3a5dd0cba052, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/97b9a411-38d1-47ab-9572-dc2b99673e03/tasks/52aabe84-7a65-40a7-b696-593ea24c5101, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/97b9a411-38d1-47ab-9572-dc2b99673e03/tasks/d1dd283e-aa40-43ed-bec6-3a5dd0cba052, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/97b9a411-38d1-47ab-9572-dc2b99673e03/tasks/52aabe84-7a65-40a7-b696-593ea24c5101, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/97b9a411-38d1-47ab-9572-dc2b99673e03, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/5dd501b4-63b6-466c-9612-af19405dc6b4, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/1a8bf6ef-7f74-488a-ae54-6447ca08c1bb, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/55be0626-5813-4d31-8afc-a3a2ccc645aa, method: PUT, body: {id: 55be0626-5813-4d31-8afc-a3a2ccc645aa, columns: [{\"id\":\"f8879f33-ce86-4669-8f4f-c400bc446b51\",\"title\":\"Backlog\",\"order\":1},{\"id\":\"89d13c25-04ec-4d1c-8c31-80655cbc6da5\",\"title\":\"Sprint\",\"order\":2}], title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/55be0626-5813-4d31-8afc-a3a2ccc645aa, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/55be0626-5813-4d31-8afc-a3a2ccc645aa, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68050ea3-25d4-43d2-bea3-a22eeae476b2, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/68050ea3-25d4-43d2-bea3-a22eeae476b2, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, boardId: 0de3fef3-cc8e-4112-ad6a-8df62654fd2a, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, boardId: 0de3fef3-cc8e-4112-ad6a-8df62654fd2a, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks, method: POST, body: {title: Task #3, order: 3, description: Lorem ipsum, boardId: 0de3fef3-cc8e-4112-ad6a-8df62654fd2a, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks, method: POST, body: {title: Task #5, order: 5, description: Lorem ipsum, boardId: 0de3fef3-cc8e-4112-ad6a-8df62654fd2a, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks, method: POST, body: {title: Task #4, order: 4, description: Lorem ipsum, boardId: 0de3fef3-cc8e-4112-ad6a-8df62654fd2a, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks/927a8f17-ec02-468a-94f7-ee10007e5752, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks/2e765787-3c5f-4fc0-bfc2-3bdf571591fa, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks/1d7f5a5a-7a9c-448a-b422-826b2636e3c0, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks/e7642de4-231c-41cd-9ce1-3f7c03266360, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks/7dc18a59-2bc4-4936-a6c1-caf657419ff9, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks/927a8f17-ec02-468a-94f7-ee10007e5752, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks/2e765787-3c5f-4fc0-bfc2-3bdf571591fa, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks/1d7f5a5a-7a9c-448a-b422-826b2636e3c0, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks/e7642de4-231c-41cd-9ce1-3f7c03266360, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/0de3fef3-cc8e-4112-ad6a-8df62654fd2a/tasks/7dc18a59-2bc4-4936-a6c1-caf657419ff9, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/5dd501b4-63b6-466c-9612-af19405dc6b4, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /login, method: POST, body: {login: admin, password: admin}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks/fd7383e4-e748-47d6-a485-a328b6d53b75, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks/4f1cb18f-44bc-4cdb-96f4-130e2d157f41, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks/6425527f-0d05-438d-aad6-d343764bd325, method: PUT, body: {id: 6425527f-0d05-438d-aad6-d343764bd325, title: Autotest updated task, order: 0, description: Lorem ipsum, userId: null, boardId: 27fc59b2-fe3f-4626-ab03-7db4e0e20b3b, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks/6425527f-0d05-438d-aad6-d343764bd325, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks/fd7383e4-e748-47d6-a485-a328b6d53b75, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks/fd7383e4-e748-47d6-a485-a328b6d53b75, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b/tasks/fd7383e4-e748-47d6-a485-a328b6d53b75, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/27fc59b2-fe3f-4626-ab03-7db4e0e20b3b, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/123, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: PUT, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: PUT, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: PUT, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/12345/tasks/12345, method: DELETE, body: null, query_params: null }"}

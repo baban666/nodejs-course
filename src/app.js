@@ -6,6 +6,7 @@ const YAML = require('yamljs');
 const inject = require('require-all');
 const mongoose = require('mongoose');
 const { incomingLogger, errorLogger } = require('./middlewares/logger');
+const checkRouteAccess = require('./middlewares/checkRouteAccess');
 const router = express.Router;
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
@@ -30,6 +31,7 @@ db.once('open', () => {
 });
 
 app.use(incomingLogger);
+app.use(checkRouteAccess);
 
 // eslint-disable-next-line guard-for-in
 for (const name in controllers) {
